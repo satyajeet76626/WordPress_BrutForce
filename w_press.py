@@ -4,9 +4,11 @@
 import requests                           # Using this module to send request and getting response from local_server.
 import sys                                # Using this module for writting formated text on the terminal.         
 from colorama import Fore,Style           # Using this module for Formating my text means appling color,style,size.. etc
-import time                               # Using this module to print execution time of main() function.
+import time 
+import os                              # Using this module to print execution time of main() function.
 
 def main():
+	os.system("clear")  # clear the screen.
 	print(Fore.CYAN + "##########################################################//               \\\################################################################")	
 	print(Fore.CYAN + "#########################################################// $ $ WeLCoMe $ $ \\\###############################################################")
 	time.sleep(0.5)
@@ -31,7 +33,7 @@ def main():
 	print(Fore.CYAN +"\t\t\t\t\t\t#//___________________________________\\\#")
 	time.sleep(0.5)
 	print(Fore.RED + "\n\t\t\t>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WaRnInG..!!! : <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-	print(Fore.RED + '\n\t\t\t\t"::::::::If you are not able to RUN this script, Please! Read REDME file::::::::"')
+	print(Fore.RED + '\n\t\t\t\t"::::::::If you are not able to RUN this script, Please! Read README file::::::::"')
 	print(Fore.RED + '\n\t\t\t\t:::::::::::::::::::::::::::'+Fore.YELLOW +'"OR Run installer.py"'+Fore.RED+':::::::::::::::::::::::::::::::')
 
 
@@ -88,10 +90,11 @@ def main():
 				sys.stdout.write(Fore.RED + "\r\t\t\t\t\t\t[-] tRyInG....."+Fore.GREEN + "\t{}%".format(complete))
 				sys.stdout.flush()
 
-
+	print(Fore.CYAN+"\n\n\t\t\t\t\t\tSoRRy!!, PaSSwOrD NoT FoUnD.!\n")
+	quit()
 
 	# Resetting the Formated text color and styles.
-	print(Style.RESSET)
+	# print(Style.RESSET)
 
 # Uncomment below lines to display program execution time. 
 
