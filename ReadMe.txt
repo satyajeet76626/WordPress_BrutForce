@@ -12,7 +12,7 @@
 
 
 
-
+######################### Watch video : https://youtu.be/sh2klOT3uws   :#####################################################
 
 ############// Before running this tool conform that you have installed python3 and the modules required to run this script OR Run installer.py.########
 #...............................................Please, First of all run [installer.py] script. ........................................................
