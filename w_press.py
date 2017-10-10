@@ -30,12 +30,14 @@ def main():
 	time.sleep(0.5)
 	print(Fore.CYAN + "\t\t\t\t\t\t#//''''''''''''''''''''''''''''''''''\\\#")
 	time.sleep(0.5)
-	print(Fore.CYAN +"\t\t\t\t\t\t#//___________________________________\\\#")
+	print(Fore.CYAN +"\t\t\t\t\t\t#//________Written By: Satyajeet________\\\#")
 	time.sleep(0.5)
-	print(Fore.RED + "\n\t\t\t>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WaRnInG..!!! : <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+	print(Fore.RED+'\n\n\t\t'+Fore.YELLOW+'Watch: https://youtu.be/sh2klOT3uws ||'+Fore.RED+'|| Download: https://github.com/satyajeet76626/WordPress_BrutForce.git')
+	time.sleep(0.3)
+	print(Fore.RED + "\n\n\t\t\t>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WaRnInG..!!! : <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+	time.sleep(0.3)
 	print(Fore.RED + '\n\t\t\t\t"::::::::If you are not able to RUN this script, Please! Read README file::::::::"')
 	print(Fore.RED + '\n\t\t\t\t:::::::::::::::::::::::::::'+Fore.YELLOW +'"OR Run installer.py"'+Fore.RED+':::::::::::::::::::::::::::::::')
-
 
 
 
